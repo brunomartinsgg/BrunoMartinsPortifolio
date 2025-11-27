@@ -1,22 +1,15 @@
-import { Navbar } from "@/components/Navbar";
-import { HeroSection } from "@/components/HeroSection";
-import { AboutSection } from "@/components/AboutSection";
-import { SkillsSection } from "@/components/SkillsSection";
-import { ProjectsSection } from "@/components/ProjectsSection";
-import { ContactSection } from "@/components/ContactSection";
-import { Footer } from "@/components/Footer";
-
 const Index = () => {
   return (
-    <main className="min-h-screen">
-      <Navbar />
-      <HeroSection />
-      <AboutSection />
-      <SkillsSection />
-      <ProjectsSection />
-      <ContactSection />
-      <Footer />
-    </main>
+    <div className="min-h-screen flex items-center justify-center bg-background">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold text-foreground">
+          Olá, Mundo!
+        </h1>
+        <p className="mt-4 text-muted-foreground">
+          Seu portfólio começa aqui. Vamos construir juntos!
+        </p>
+      </div>
+    </div>
   );
 };
 
