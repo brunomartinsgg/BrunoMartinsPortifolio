@@ -1,73 +1,57 @@
-# Welcome to your Lovable project
+# 🌐 Portfólio | Bruno Martins 
 
-## Project info
+Este é o meu portfólio pessoal, desenvolvido para apresentar meus projetos, experiência profissional, habilidades técnicas e trajetória na área de Tecnologia da Informação.  
+Atualmente curso Sistemas de Informação na Universidade Federal de Alagoas (UFAL) e estou em transição para as áreas de Back-End e Ciência de Dados.
 
-**URL**: https://lovable.dev/projects/7a502e0e-9b27-449d-a959-91628abf136e
+---
 
-## How can I edit this code?
+## 🚀 Tecnologias Utilizadas
 
-There are several ways of editing your application.
+Este portfólio foi construído com:
 
-**Use Lovable**
+- **React**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **shadcn-ui**
+- **Lucide Icons**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7a502e0e-9b27-449d-a959-91628abf136e) and start prompting.
+Essas tecnologias foram escolhidas por oferecerem desempenho, flexibilidade, design moderno e escalabilidade.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 💼 Sobre Mim
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Sou estudante de Sistemas de Informação (UFAL) com foco em Banco de Dados, SQL, Python, Estatística e Business Intelligence.  
+Atuo como líder de produção na Usina Caeté – Unidade Marituba, onde desenvolvo habilidades em gestão operacional, análise de indicadores e tomada de decisão.  
+Paralelamente, construo projetos acadêmicos e pessoais aplicando conceitos de dados e desenvolvimento de software.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🧩 Funcionalidades do Portfólio
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Seção de apresentação e links principais  
+- Sobre (About)  
+- Projetos com descrição detalhada  
+- Linha do tempo de experiência (Experience Timeline)  
+- Lista de habilidades técnicas  
+- Contatos e links sociais  
+- Download de currículo
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+📬 Contato
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Email: brunnogomesgg@gmail.com
 
-**Edit a file directly in GitHub**
+LinkedIn: https://www.linkedin.com/in/bruno-martinsgomes/
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+GitHub: https://github.com/brunomartinsgg
 
-**Use GitHub Codespaces**
+Localização: Igreja Nova – AL, Brasil
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📌 Licença
 
-## What technologies are used for this project?
+Este projeto é de uso pessoal e pode servir como referência para estudantes ou desenvolvedores iniciantes.
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/7a502e0e-9b27-449d-a959-91628abf136e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+⭐ Obrigado por visitar meu portfólio!
