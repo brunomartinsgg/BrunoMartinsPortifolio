@@ -1,5 +1,6 @@
 import { Code, Layers, Lightbulb, Users } from "lucide-react";
 import { aboutMe } from "@/data/portfolio";
+import { Avatar } from "./ui/avatar";
 
 const iconMap: Record<string, React.ElementType> = {
   Code: Code,
