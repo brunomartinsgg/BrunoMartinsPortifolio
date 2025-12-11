@@ -3,45 +3,40 @@
 // ========================================
 
 export const personalInfo = {
-  name: "Bruno Martins",
-  role: "Software Engineer",
-  subtitle: "Building innovative solutions with modern technologies",
-  email: "seu.email@exemplo.com",
-  phone: "+55 (11) 99999-9999",
-  location: "São Paulo, Brazil",
-  linkedin: "https://linkedin.com/in/seu-perfil",
-  github: "https://github.com/seu-usuario",
+  name: "Bruno Martins Gomes",
+  role: "Estudante de Sistemas de Informação | Aspirante a Cientista de Dados e Back-End",
+  subtitle: "Evolução constante na área de tecnologia",
+  email: "brunnogomesgg@gmail.com",
+  phone: "+55 (82) 99910-7995",
+  location: "Penedo-AL",
+  linkedin: "https://www.linkedin.com/in/bruno-martinsgomes/",
+  github: "https://github.com/brunomartinsgg",
   resumeUrl: "/resume.pdf", // Coloque seu CV na pasta public/
 };
 
 export const aboutMe = {
-  title: "About Me",
-  subtitle: "My Journey",
-  description: `I am a passionate Software Engineer with experience in building modern web applications. 
-  My journey in tech began with a curiosity about how software could solve complex problems, 
-  leading me to pursue a career where I've developed applications that deliver real business value.
-  
-  I'm constantly learning and improving my skills, staying up-to-date with the latest technologies 
-  and best practices in software development.`,
+  title: "Sobre",
+  subtitle: "Evolução constante na área de tecnologia",
+  description: `Sou estudante de Sistemas de Informação na Universidade Federal de Alagoas, com foco em Banco de Dados, Estatística, SQL, Python e BI. Atuo como líder de produção na Usina Caeté – Marituba, onde desenvolvi disciplina, organização e visão de processos. Estou direcionando minha trajetória para as áreas de Dados e Back-End, construindo projetos práticos e fortalecendo meu portfólio. Tenho afinidade com Git/GitHub, modelagem de dados e boas práticas de desenvolvimento. Busco oportunidades para evoluir tecnicamente, entregar soluções de valor e construir uma carreira sólida no setor tecnológico.`,
   highlights: [
     {
-      title: "Software Engineering",
-      description: "Experience in building enterprise software",
-      icon: "Code",
-    },
-    {
-      title: "Full Stack Development",
-      description: "End-to-end development from UI/UX to backend systems",
+      title: "Banco de Dados",
+      description: "Modelagem, consultas e otimização",
       icon: "Layers",
     },
     {
-      title: "Problem Solving",
-      description: "Analytical thinking and creative solutions",
+      title: "Análise de Dados",
+      description: "SQL, Python e uso de bibliotecas de análise",
+      icon: "Code",
+    },
+    {
+      title: "Estatística & BI",
+      description: "Power BI, Excel e visualização de dados",
       icon: "Lightbulb",
     },
     {
-      title: "Team Collaboration",
-      description: "Effective communication and teamwork",
+      title: "Boas Práticas",
+      description: "Controle de versão e organização de projetos",
       icon: "Users",
     },
   ],
@@ -50,71 +45,46 @@ export const aboutMe = {
 export const experiences = [
   {
     id: 1,
-    company: "Nome da Empresa",
-    role: "Software Engineer",
-    period: "Jan 2023 - Present",
-    location: "São Paulo, Brazil",
+    company: "Usina Caeté – Unidade Marituba",
+    role: "Líder de Produção",
+    period: "Ago 2022 – Presente",
+    location: "Igreja Nova – AL",
     description: [
-      "Desenvolvi aplicações web modernas usando React e TypeScript",
-      "Implementei APIs RESTful com Node.js e Express",
-      "Colaborei com equipes multidisciplinares em projetos ágeis",
+      "Gestão e acompanhamento das operações de ensacamento de açúcar, garantindo produtividade, qualidade e segurança.",
+      "Monitoramento de indicadores de desempenho (produção/hora, perdas, falhas operacionais).",
+      "Coordenação de equipe e apoio na tomada de decisões em processos industriais.",
+      "Colaboração com setores de manutenção e qualidade para resolver problemas de linha e melhorar o fluxo operacional.",
+      "Documentação de ocorrências e otimização de processos rotineiros.",
     ],
-    techStack: ["React", "TypeScript", "Node.js", "PostgreSQL", "Docker"],
-  },
-  {
-    id: 2,
-    company: "Outra Empresa",
-    role: "Junior Developer",
-    period: "Jun 2021 - Dec 2022",
-    location: "São Paulo, Brazil",
-    description: [
-      "Participei do desenvolvimento de sistemas internos",
-      "Aprendi boas práticas de desenvolvimento de software",
-      "Contribuí para a melhoria contínua dos processos",
+    techStack: [
+      "Gestão de Equipes",
+      "Processos Industriais",
+      "Análise Operacional",
+      "Comunicação",
+      "Organização",
     ],
-    techStack: ["JavaScript", "React", "CSS", "Git"],
   },
 ];
 
 export const projects = [
   {
     id: 1,
-    title: "Projeto 1",
-    description: "Descrição do seu projeto incrível. Explique o que ele faz e qual problema resolve.",
-    image: "https://via.placeholder.com/400x250", // Substitua pela sua imagem
-    techStack: ["React", "TypeScript", "Tailwind CSS"],
-    liveUrl: "https://seu-projeto.com",
-    githubUrl: "https://github.com/seu-usuario/projeto",
-    category: "Web Development",
-  },
-  {
-    id: 2,
-    title: "Projeto 2",
-    description: "Outro projeto interessante que você desenvolveu.",
-    image: "https://via.placeholder.com/400x250",
-    techStack: ["Node.js", "Express", "MongoDB"],
-    liveUrl: "https://outro-projeto.com",
-    githubUrl: "https://github.com/seu-usuario/outro-projeto",
-    category: "Backend",
-  },
-  {
-    id: 3,
-    title: "Projeto 3",
-    description: "Mais um projeto para mostrar suas habilidades.",
-    image: "https://via.placeholder.com/400x250",
-    techStack: ["Python", "FastAPI", "PostgreSQL"],
+    title: "Analise_Comercial – SQLite",
+    description: "Sistema para análise comercial usando SQLite, Python, Pandas e Tkinter, incluindo executável com PyInstaller",
+    image: "/projects/analise_comercial.png",
+    techStack: ["SQLite", "Python", "Pandas", "Tkinter"],
     liveUrl: "",
-    githubUrl: "https://github.com/seu-usuario/projeto-3",
-    category: "Backend",
+    githubUrl: "https://github.com/brunomartinsgg/Analise_comercial-SQLite",
+    category: "Análise de Dados",
   },
 ];
 
 export const skills = {
-  languages: ["JavaScript", "TypeScript", "Python", "Java"],
-  frontend: ["React", "Next.js", "Tailwind CSS", "HTML5", "CSS3"],
-  backend: ["Node.js", "Express", "FastAPI", "Spring Boot"],
-  databases: ["PostgreSQL", "MongoDB", "MySQL", "Redis"],
-  tools: ["Git", "Docker", "AWS", "Linux", "VS Code"],
+  languages: ["SQL", "Python"],
+  frontend: [""],
+  backend: ["Aspirante a Back-End"],
+  databases: ["Banco de Dados", "Modelagem de Dados"],
+  tools: ["Git", "GitHub", "Excel", "Power BI", "Fácil aprendizagem"],
 };
 
 export const education = [

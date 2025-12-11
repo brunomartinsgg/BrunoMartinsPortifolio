@@ -1,6 +1,6 @@
 import { Code, Layers, Lightbulb, Users } from "lucide-react";
 import { aboutMe } from "@/data/portfolio";
-import { Avatar } from "./ui/avatar";
+import avatarImage from "@/assets/avatar.png";
 
 const iconMap: Record<string, React.ElementType> = {
   Code: Code,
@@ -26,9 +26,9 @@ const About = () => {
           <div className="flex justify-center">
             <div className="relative">
               <div className="w-72 h-72 md:w-80 md:h-80 rounded-2xl overflow-hidden shadow-xl">
-                {/* Substitua pela sua foto */}
+                {/* Substitua esta imagem em src/assets/avatar.png pela sua foto */}
                 <img
-                  src="https://via.placeholder.com/350"
+                  src={avatarImage}
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />

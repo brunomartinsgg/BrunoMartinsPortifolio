@@ -1,7 +1,7 @@
 import { ArrowDown, Download, Mail, Github, Linkedin } from "lucide-react";
 import { personalInfo } from "@/data/portfolio";
 import { Button } from "@/components/ui/button";
-import { Avatar } from "./ui/avatar";
+import avatarImage from "@/assets/avatar.png";
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -85,9 +85,9 @@ const Hero = () => {
           <div className="flex-1 flex justify-center lg:justify-end">
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
-                {/* Substitua esta URL pela sua foto */}
+                {/* Substitua esta imagem em src/assets/avatar.png pela sua foto */}
                 <img
-                  src="avatar.png"
+                  src={avatarImage}
                   alt={personalInfo.name}
                   className="w-full h-full object-cover"
                 />
