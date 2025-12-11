@@ -70,7 +70,8 @@ export const projects = [
   {
     id: 1,
     title: "Analise_Comercial – SQLite",
-    description: "Sistema para análise comercial usando SQLite, Python, Pandas e Tkinter, incluindo executável com PyInstaller",
+    description:
+      "Sistema para análise comercial usando SQLite, Python, Pandas e Tkinter, incluindo executável com PyInstaller",
     image: "/projects/analise_comercial.png",
     techStack: ["SQLite", "Python", "Pandas", "Tkinter"],
     liveUrl: "",
