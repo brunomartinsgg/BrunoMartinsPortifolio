@@ -1,9 +1,7 @@
-// ========================================
-// DADOS DO PORTFÓLIO - EDITE AQUI!
-// ========================================
+
 
 export const personalInfo = {
-  name: "Bruno Martins Gomes",
+  name: "Bruno Martins",
   role: "Estudante de Sistemas de Informação | Aspirante a Cientista de Dados e Back-End",
   subtitle: "Evolução constante na área de tecnologia",
   email: "brunnogomesgg@gmail.com",

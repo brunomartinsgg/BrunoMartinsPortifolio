@@ -1,6 +1,7 @@
 import { ArrowDown, Download, Mail, Github, Linkedin } from "lucide-react";
 import { personalInfo } from "@/data/portfolio";
 import { Button } from "@/components/ui/button";
+import avatar from "../../public/avatar.png";
 // usando imagem pública em /avatar.png para evitar problemas de resolução
 
 const Hero = () => {
@@ -87,7 +88,7 @@ const Hero = () => {
               <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
                 {/* Imagem pública em /avatar.png */}
                 <img
-                  src="/avatar.png"
+                  src="avatar"
                   alt={personalInfo.name}
                   className="w-full h-full object-cover"
                 />

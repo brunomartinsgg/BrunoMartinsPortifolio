@@ -1,5 +1,6 @@
 import { Code, Layers, Lightbulb, Users } from "lucide-react";
 import { aboutMe } from "@/data/portfolio";
+import avatar from "../../public/avatar.png";
 // usando imagem pública em /avatar.png para evitar problemas de resolução
 
 const iconMap: Record<string, React.ElementType> = {
@@ -28,7 +29,7 @@ const About = () => {
               <div className="w-72 h-72 md:w-80 md:h-80 rounded-2xl overflow-hidden shadow-xl">
                 {/* Imagem pública em /avatar.png */}
                 <img
-                  src="/avatar.png"
+                  src={avatar}
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
