@@ -40,8 +40,18 @@ Paralelamente, construo projetos acadêmicos e pessoais aplicando conceitos de d
 
 ---
 
-## 🛠️ Como Rodar o Projeto Localmente
+📬 Contato
 
-1. Clone o repositório:
-```bash
-git clone <URL_DO_SEU_REPO>
+Email: brunnogomesgg@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/bruno-martinsgomes/
+
+GitHub: https://github.com/brunomartinsgg
+
+Localização: Igreja Nova – AL, Brasil
+
+📌 Licença
+
+Este projeto é de uso pessoal e pode servir como referência para estudantes ou desenvolvedores iniciantes.
+
+⭐ Obrigado por visitar meu portfólio!
