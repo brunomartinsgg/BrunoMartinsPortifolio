@@ -9,7 +9,7 @@ export const personalInfo = {
   location: "Penedo-AL",
   linkedin: "https://www.linkedin.com/in/bruno-martinsgomes/",
   github: "https://github.com/brunomartinsgg",
-  resumeUrl: "/resume.pdf", // Coloque seu CV na pasta public/
+  resumeUrl: "/cv/curriculo.pdf",
 };
 
 export const aboutMe = {
