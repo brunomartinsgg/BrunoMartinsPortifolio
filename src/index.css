@@ -17,6 +17,8 @@
     --border: 214 32% 91%;
     --ring: 221 83% 53%;
     --radius: 0.5rem;
+    --section-alt: 210 40% 97%;
+    --section-accent: 221 50% 95%;
   }
 
   .dark {
@@ -26,12 +28,14 @@
     --muted-foreground: 215 20% 65%;
     --primary: 221 83% 60%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 217 33% 17%;
+    --secondary: 217 33% 12%;
     --secondary-foreground: 210 40% 98%;
     --accent: 221 83% 60%;
     --accent-foreground: 0 0% 100%;
     --border: 217 33% 17%;
     --ring: 221 83% 60%;
+    --section-alt: 222 47% 9%;
+    --section-accent: 221 50% 12%;
   }
 }
 
