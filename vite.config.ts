@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/BrunoMartinsPortifolio/", // 👈 Nome EXATO do repositório
+  base: "/", // 👈 Nome EXATO do repositório
   plugins: [
     react(),
     mode === "development" && componentTagger(), // funciona só no dev
