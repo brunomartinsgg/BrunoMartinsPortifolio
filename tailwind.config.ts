@@ -51,6 +51,8 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        "section-alt": "hsl(var(--section-alt))",
+        "section-accent": "hsl(var(--section-accent))",
       },
       borderRadius: {
         lg: "var(--radius)",

@@ -11,7 +11,7 @@ const iconMap: Record<string, React.ElementType> = {
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-secondary/50">
+    <section id="about" className="py-20 bg-section-alt">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">

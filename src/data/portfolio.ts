@@ -70,7 +70,7 @@ export const projects = [
     title: "Analise_Comercial – SQLite",
     description:
       "Sistema para análise comercial usando SQLite, Python, Pandas e Tkinter, incluindo executável com PyInstaller",
-    image: "/projects/analise_comercial.png",
+    image: "/placeholder.svg",
     techStack: ["SQLite", "Python", "Pandas", "Tkinter"],
     liveUrl: "",
     githubUrl: "https://github.com/brunomartinsgg/Analise_comercial-SQLite",
