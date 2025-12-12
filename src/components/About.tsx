@@ -1,7 +1,6 @@
 import { Code, Layers, Lightbulb, Users } from "lucide-react";
 import { aboutMe } from "@/data/portfolio";
-import avatar from "../../public/avatar.png";
-// usando imagem pública em /avatar.png para evitar problemas de resolução
+import avatar from "@/assets/avatar.png";
 
 const iconMap: Record<string, React.ElementType> = {
   Code: Code,
@@ -12,7 +11,7 @@ const iconMap: Record<string, React.ElementType> = {
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-muted/30">
+    <section id="about" className="py-20 bg-secondary/50">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
