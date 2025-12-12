@@ -71,16 +71,21 @@ const Projects = () => {
                     </Button>
                   )}
                   {project.githubUrl && (
-                    <Button variant="outline" size="sm" asChild>
-                      <a
-                        href={project.githubUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Github className="h-4 w-4 mr-1" />
-                        Code
-                      </a>
-                    </Button>
+                    <Button
+  size="sm"
+  className="bg-primary/20 text-primary border border-primary/30 hover:bg-primary hover:text-primary-foreground transition-colors"
+  asChild
+>
+  <a
+    href={project.githubUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Github className="h-4 w-4 mr-1" />
+    Code
+  </a>
+</Button>
+
                   )}
                 </div>
               </div>

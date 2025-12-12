@@ -12,7 +12,7 @@ const Footer = () => {
             © {currentYear} {personalInfo.name}. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm flex items-center gap-1">
-            Made with <Heart className="h-4 w-4 text-red-500 fill-red-500" /> using React
+            Made with using React
           </p>
         </div>
       </div>

@@ -95,22 +95,23 @@ const Contact = () => {
                 Follow Me
               </h4>
               <div className="flex gap-4">
-                <a
-                  href={personalInfo.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 bg-muted rounded-lg hover:bg-primary hover:text-primary-foreground transition-colors duration-200"
-                >
-                  <Github className="h-5 w-5" />
-                </a>
-                <a
-                  href={personalInfo.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 bg-muted rounded-lg hover:bg-primary hover:text-primary-foreground transition-colors duration-200"
-                >
-                  <Linkedin className="h-5 w-5" />
-                </a>
+<a
+  href={personalInfo.github}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="p-3 rounded-full bg-primary/20 text-primary border border-primary/30 hover:bg-primary hover:text-primary-foreground transition-colors duration-200"
+>
+  <Github className="h-5 w-5" />
+</a>
+<a
+  href={personalInfo.linkedin}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="p-3 rounded-full bg-primary/20 text-primary border border-primary/30 hover:bg-primary hover:text-primary-foreground transition-colors duration-200"
+>
+  <Linkedin className="h-5 w-5" />
+</a>
+
               </div>
             </div>
           </div>
@@ -120,38 +121,35 @@ const Contact = () => {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <Input
-                  placeholder="Your Name"
-                  value={formData.name}
-                  onChange={(e) =>
-                    setFormData({ ...formData, name: e.target.value })
-                  }
-                  required
-                  className="bg-background"
-                />
+  placeholder="Your Name"
+  value={formData.name}
+  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+  required
+  className="bg-background text-foreground placeholder:text-muted-foreground"
+/>
+
               </div>
               <div>
-                <Input
-                  type="email"
-                  placeholder="Your Email"
-                  value={formData.email}
-                  onChange={(e) =>
-                    setFormData({ ...formData, email: e.target.value })
-                  }
-                  required
-                  className="bg-background"
-                />
+               <Input
+  type="email"
+  placeholder="Your Email"
+  value={formData.email}
+  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+  required
+  className="bg-background text-foreground placeholder:text-muted-foreground"
+/>
+
               </div>
               <div>
                 <Textarea
-                  placeholder="Your Message"
-                  value={formData.message}
-                  onChange={(e) =>
-                    setFormData({ ...formData, message: e.target.value })
-                  }
-                  required
-                  rows={5}
-                  className="bg-background resize-none"
-                />
+  placeholder="Your Message"
+  value={formData.message}
+  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+  required
+  rows={5}
+  className="bg-background text-foreground placeholder:text-muted-foreground resize-none"
+/>
+
               </div>
               <Button type="submit" size="lg" className="w-full">
                 <Send className="mr-2 h-5 w-5" />
