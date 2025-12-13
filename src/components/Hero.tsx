@@ -86,7 +86,7 @@ const Hero = () => {
           <div className="flex-1 flex justify-center lg:justify-end">
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
-                {/* Imagem pública em /avatar.png */}
+                {/* /avatar.png */}
                 <img
                   src={avatar}
                   alt={personalInfo.name}

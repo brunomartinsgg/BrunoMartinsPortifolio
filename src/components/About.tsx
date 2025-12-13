@@ -26,19 +26,16 @@ const About = () => {
           <div className="flex justify-center">
             <div className="relative">
               <div className="w-72 h-72 md:w-80 md:h-80 rounded-2xl overflow-hidden shadow-xl">
-                {/* Imagem pública em /avatar.png */}
                 <img
                   src={avatar}
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
               </div>
-              {/* Decorative element */}
               <div className="absolute -bottom-4 -right-4 w-72 h-72 md:w-80 md:h-80 border-2 border-primary rounded-2xl -z-10" />
             </div>
           </div>
 
-          {/* Content */}
           <div>
             <h3 className="text-2xl font-bold text-foreground mb-6">
               {aboutMe.subtitle}
