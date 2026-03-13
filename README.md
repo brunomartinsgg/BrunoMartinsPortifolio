@@ -55,22 +55,3 @@ Localização: Igreja Nova – AL, Brasil
 Este projeto é de uso pessoal e pode servir como referência para estudantes ou desenvolvedores iniciantes.
 
 ⭐ Obrigado por visitar meu portfólio!
-
-**Env e execução (Python)**
-
-- Copie [.env.example](.env.example) para .env e preencha RESEND_API_KEY.
-- Instale dependências:
-
-```powershell
-pip install resend python-dotenv
-```
-
-- Execute o script com a variável no ambiente ou usando o `.env`:
-
-```powershell
-python .\index.py
-# ou (temporário no PowerShell)
-$env:RESEND_API_KEY="sua_chave_aqui"; python .\index.py
-```
-
-O arquivo principal é [index.py](index.py). Ele carrega `.env` automaticamente se `python-dotenv` estiver instalado.
