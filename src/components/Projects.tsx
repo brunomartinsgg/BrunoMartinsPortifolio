@@ -1,0 +1,111 @@
+import { ExternalLink, Github } from "lucide-react";
+import { projects } from "@/data/portfolio";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
+
+const Projects = () => {
+  return (
+    <section id="projects" className="py-20 bg-background">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="text-3xl md:text-4xl font-bold text-foreground mb-4"
+          >
+            My Projects
+          </motion.h2>
+          <motion.div
+            initial={{ scaleX: 0 }}
+            whileInView={{ scaleX: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="w-20 h-1 bg-primary mx-auto rounded-full"
+          />
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {projects.map((project, index) => (
+            <motion.div
+              key={project.id}
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.5, delay: 0.1 * index }}
+              whileHover={{ y: -8 }}
+              className="bg-background rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 group"
+            >
+              <div className="relative overflow-hidden h-48">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              </div>
+
+              <div className="p-6">
+                <div className="flex items-center justify-between mb-2">
+                  <h3 className="text-xl font-bold text-foreground">
+                    {project.title}
+                  </h3>
+                  <Badge variant="outline" className="text-xs">
+                    {project.category}
+                  </Badge>
+                </div>
+
+                <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
+                  {project.description}
+                </p>
+
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {project.techStack.map((tech) => (
+                    <Badge key={tech} variant="secondary" className="text-xs">
+                      {tech}
+                    </Badge>
+                  ))}
+                </div>
+
+                <div className="flex gap-2">
+                  {project.liveUrl && (
+                    <Button variant="outline" size="sm" asChild>
+                      <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="h-4 w-4 mr-1" />
+                        Live
+                      </a>
+                    </Button>
+                  )}
+                  {project.githubUrl && (
+                    <Button
+                      size="sm"
+                      className="bg-primary/20 text-primary border border-primary/30 hover:bg-primary hover:text-primary-foreground transition-colors"
+                      asChild
+                    >
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Github className="h-4 w-4 mr-1" />
+                        Code
+                      </a>
+                    </Button>
+                  )}
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Projects;
